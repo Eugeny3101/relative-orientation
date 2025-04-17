@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Viewer</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+    #controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255,255,255,0.9);
+      padding: 10px;
+      border-radius: 8px;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label><input type="checkbox" checked id="L_1"> L_1</label><br>
+    <label><input type="checkbox" checked id="L_2"> L_2</label><br>
+    <label><input type="checkbox" checked id="L_3"> L_3</label><br>
+    <label><input type="checkbox" checked id="L_4"> L_4</label><br>
+    <label><input type="checkbox" checked id="L_5"> L_5</label><br>
+    <label><input type="checkbox" checked id="R_1"> R_1</label><br>
+    <label><input type="checkbox" checked id="R_2"> R_2</label><br>
+    <label><input type="checkbox" checked id="R_3"> R_3</label><br>
+    <label><input type="checkbox" checked id="R_4"> R_4</label><br>
+    <label><input type="checkbox" checked id="R_5"> R_5</label><br>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
